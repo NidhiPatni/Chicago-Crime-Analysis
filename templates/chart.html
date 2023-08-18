@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chart</title>
+    <style>
+        h2 {
+            text-align: center;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <p><a href="/logout">Logout</a></p>
+    <h2>{{ chart_type_name }} {{ column_name_name }}</h2>
+    <img src="{{ url_for('static', filename='img/chart.png') }}?v={{ timestamp }}" alt="Sample Chart">
+</body>
+</html>
+
