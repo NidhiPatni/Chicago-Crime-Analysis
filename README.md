@@ -2,6 +2,7 @@
 The objective of this project is to analyze crime data in Chicago and gain insights into crime patterns, trends, and hotspots. By examining the data, we aim to understand the nature of crime occurrences, identify high-crime areas, and provide recommendations for crime prevention strategies.
 
 This project is created in Python using Flask where user can see dynamic charts based on user selection on Chicago Crimes.
+This project will allow user to perform exploratory data analysis dynamically based on user selection where user has facility to select any kind of data (latitude and longitude of home and target location) for which they want to see the graph visually. APIs has been created and called dynamically based on user selections.
 
 In this application, I have planned to implement the following functions.
 
